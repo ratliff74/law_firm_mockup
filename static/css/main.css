@@ -1,0 +1,87 @@
+body {
+  background-image: url("..//images/nza_background.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 250vh;
+  width: 70%;
+  background-color: white;
+}
+
+.placeholder1 {
+  margin-top: 45px;
+  margin-left: 75px;
+}
+
+.button {
+  background-color: lightgrey;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  float: right;
+  margin-right: 40px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.index-container {
+  display: grid;
+  gap: 25px;
+
+}
+
+.indexitem1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.indexitem2 {
+  background-image: url(/static/images/nav_side_sub.jpg);
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-right: 20px;
+}
+
+.indexitem3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.indexitem4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.navbar2 ul li {
+  display: inline;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: small;
+}

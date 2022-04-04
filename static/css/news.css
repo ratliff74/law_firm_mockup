@@ -1,0 +1,44 @@
+body {
+  background-image: url("../../nza_background.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 160vh;
+  width: 70%;
+  background-color: white;
+}
+
+.placeholder1 {
+  margin-top: 45px;
+  margin-left: 75px;
+}
+
+.button {
+  background-color: lightgrey;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  float: right;
+  margin-right: 40px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 10px;
+  margin-left: 20px;
+
+
+}
